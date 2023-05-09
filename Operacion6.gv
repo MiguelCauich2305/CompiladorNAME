@@ -1,0 +1,48 @@
+digraph G {
+	Sent -> GO
+	Sent -> ";"
+	Sent -> "Sentencias OperacionesG=8*2+E*W
+"
+	Sent -> GON
+	Sent -> "; "
+	"Sentencias OperacionesG=8*2+E*W
+" -> "Operaciones  G=8*2+E*W
+"
+	"Operaciones  G=8*2+E*W
+" -> " nombrevar|numero G"
+	" nombrevar|numero G" -> "numero G"
+	"numero G" -> G
+	"Operaciones  G=8*2+E*W
+" -> "Operador= "
+	"Operador= " -> "= "
+	"Operaciones  G=8*2+E*W
+" -> " nombrevar|numero 8  "
+	" nombrevar|numero 8  " -> "numero 8  "
+	"numero 8  " -> "8  "
+	"Operaciones  G=8*2+E*W
+" -> "Operador*   "
+	"Operador*   " -> "*   "
+	"Operaciones  G=8*2+E*W
+" -> " nombrevar|numero 2    "
+	" nombrevar|numero 2    " -> "numero 2    "
+	"numero 2    " -> "2    "
+	"Operaciones  G=8*2+E*W
+" -> "Operador+     "
+	"Operador+     " -> "+     "
+	"Operaciones  G=8*2+E*W
+" -> " nombrevar|numero E      "
+	" nombrevar|numero E      " -> "numero E      "
+	"numero E      " -> "E      "
+	"Operaciones  G=8*2+E*W
+" -> "Operador*       "
+	"Operador*       " -> "*       "
+	"Operaciones  G=8*2+E*W
+" -> " nombrevar|numero W
+        "
+	" nombrevar|numero W
+        " -> "numero W
+        "
+	"numero W
+        " -> "W
+        "
+}

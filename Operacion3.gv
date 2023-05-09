@@ -1,0 +1,34 @@
+digraph G {
+	Sent -> GO
+	Sent -> ";"
+	Sent -> "Sentencias OperacionesI=C*5
+"
+	Sent -> GON
+	Sent -> "; "
+	"Sentencias OperacionesI=C*5
+" -> "Operaciones  I=C*5
+"
+	"Operaciones  I=C*5
+" -> " nombrevar|numero I"
+	" nombrevar|numero I" -> "numero I"
+	"numero I" -> I
+	"Operaciones  I=C*5
+" -> "Operador= "
+	"Operador= " -> "= "
+	"Operaciones  I=C*5
+" -> " nombrevar|numero C  "
+	" nombrevar|numero C  " -> "numero C  "
+	"numero C  " -> "C  "
+	"Operaciones  I=C*5
+" -> "Operador*   "
+	"Operador*   " -> "*   "
+	"Operaciones  I=C*5
+" -> " nombrevar|numero 5
+    "
+	" nombrevar|numero 5
+    " -> "numero 5
+    "
+	"numero 5
+    " -> "5
+    "
+}

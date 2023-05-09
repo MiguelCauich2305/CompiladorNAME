@@ -1,0 +1,41 @@
+digraph G {
+	Sent -> GO
+	Sent -> ";"
+	Sent -> "Sentencias OperacionesE=F*1/1
+"
+	Sent -> GON
+	Sent -> "; "
+	"Sentencias OperacionesE=F*1/1
+" -> "Operaciones  E=F*1/1
+"
+	"Operaciones  E=F*1/1
+" -> " nombrevar|numero E"
+	" nombrevar|numero E" -> "numero E"
+	"numero E" -> E
+	"Operaciones  E=F*1/1
+" -> "Operador= "
+	"Operador= " -> "= "
+	"Operaciones  E=F*1/1
+" -> " nombrevar|numero F  "
+	" nombrevar|numero F  " -> "numero F  "
+	"numero F  " -> "F  "
+	"Operaciones  E=F*1/1
+" -> "Operador*   "
+	"Operador*   " -> "*   "
+	"Operaciones  E=F*1/1
+" -> " nombrevar|numero 1    "
+	" nombrevar|numero 1    " -> "numero 1    "
+	"numero 1    " -> "1    "
+	"Operaciones  E=F*1/1
+" -> "Operador/     "
+	"Operador/     " -> "/     "
+	"Operaciones  E=F*1/1
+" -> " nombrevar|numero 1
+      "
+	" nombrevar|numero 1
+      " -> "numero 1
+      "
+	"numero 1
+      " -> "1
+      "
+}

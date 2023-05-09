@@ -1,0 +1,62 @@
+digraph G {
+	Sent -> GO
+	Sent -> ";"
+	Sent -> "Sentencias OperacionesC=10*5+63-9*2/3
+"
+	Sent -> GON
+	Sent -> "; "
+	"Sentencias OperacionesC=10*5+63-9*2/3
+" -> "Operaciones  C=10*5+63-9*2/3
+"
+	"Operaciones  C=10*5+63-9*2/3
+" -> " nombrevar|numero C"
+	" nombrevar|numero C" -> "numero C"
+	"numero C" -> C
+	"Operaciones  C=10*5+63-9*2/3
+" -> "Operador= "
+	"Operador= " -> "= "
+	"Operaciones  C=10*5+63-9*2/3
+" -> " nombrevar|numero 10  "
+	" nombrevar|numero 10  " -> "numero 10  "
+	"numero 10  " -> "10  "
+	"Operaciones  C=10*5+63-9*2/3
+" -> "Operador*   "
+	"Operador*   " -> "*   "
+	"Operaciones  C=10*5+63-9*2/3
+" -> " nombrevar|numero 5    "
+	" nombrevar|numero 5    " -> "numero 5    "
+	"numero 5    " -> "5    "
+	"Operaciones  C=10*5+63-9*2/3
+" -> "Operador+     "
+	"Operador+     " -> "+     "
+	"Operaciones  C=10*5+63-9*2/3
+" -> " nombrevar|numero 63      "
+	" nombrevar|numero 63      " -> "numero 63      "
+	"numero 63      " -> "63      "
+	"Operaciones  C=10*5+63-9*2/3
+" -> "Operador-       "
+	"Operador-       " -> "-       "
+	"Operaciones  C=10*5+63-9*2/3
+" -> " nombrevar|numero 9        "
+	" nombrevar|numero 9        " -> "numero 9        "
+	"numero 9        " -> "9        "
+	"Operaciones  C=10*5+63-9*2/3
+" -> "Operador*         "
+	"Operador*         " -> "*         "
+	"Operaciones  C=10*5+63-9*2/3
+" -> " nombrevar|numero 2          "
+	" nombrevar|numero 2          " -> "numero 2          "
+	"numero 2          " -> "2          "
+	"Operaciones  C=10*5+63-9*2/3
+" -> "Operador/           "
+	"Operador/           " -> "/           "
+	"Operaciones  C=10*5+63-9*2/3
+" -> " nombrevar|numero 3
+            "
+	" nombrevar|numero 3
+            " -> "numero 3
+            "
+	"numero 3
+            " -> "3
+            "
+}

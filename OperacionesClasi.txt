@@ -1,0 +1,3 @@
+ENT,Operador,ENT,Operador,ENT,Operador,ENT,Operador,ENT,Operador,ENT,Operador,ENT
+ENT,Operador,ENT,Operador,ENT,Operador,ENT,Operador,ENT,Operador,ENT,Operador,ENT
+ENT,Operador,ENT,Operador,ENT,Operador,ENT,Operador,ENT,Operador,ENT,Operador,ENT

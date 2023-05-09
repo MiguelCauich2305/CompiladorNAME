@@ -1,0 +1,62 @@
+digraph G {
+	Sent -> GO
+	Sent -> ";"
+	Sent -> "Sentencias OperacionesB=A*10+3-E/F+C
+"
+	Sent -> GON
+	Sent -> "; "
+	"Sentencias OperacionesB=A*10+3-E/F+C
+" -> "Operaciones  B=A*10+3-E/F+C
+"
+	"Operaciones  B=A*10+3-E/F+C
+" -> " nombrevar|numero B"
+	" nombrevar|numero B" -> "numero B"
+	"numero B" -> B
+	"Operaciones  B=A*10+3-E/F+C
+" -> "Operador= "
+	"Operador= " -> "= "
+	"Operaciones  B=A*10+3-E/F+C
+" -> " nombrevar|numero A  "
+	" nombrevar|numero A  " -> "numero A  "
+	"numero A  " -> "A  "
+	"Operaciones  B=A*10+3-E/F+C
+" -> "Operador*   "
+	"Operador*   " -> "*   "
+	"Operaciones  B=A*10+3-E/F+C
+" -> " nombrevar|numero 10    "
+	" nombrevar|numero 10    " -> "numero 10    "
+	"numero 10    " -> "10    "
+	"Operaciones  B=A*10+3-E/F+C
+" -> "Operador+     "
+	"Operador+     " -> "+     "
+	"Operaciones  B=A*10+3-E/F+C
+" -> " nombrevar|numero 3      "
+	" nombrevar|numero 3      " -> "numero 3      "
+	"numero 3      " -> "3      "
+	"Operaciones  B=A*10+3-E/F+C
+" -> "Operador-       "
+	"Operador-       " -> "-       "
+	"Operaciones  B=A*10+3-E/F+C
+" -> " nombrevar|numero E        "
+	" nombrevar|numero E        " -> "numero E        "
+	"numero E        " -> "E        "
+	"Operaciones  B=A*10+3-E/F+C
+" -> "Operador/         "
+	"Operador/         " -> "/         "
+	"Operaciones  B=A*10+3-E/F+C
+" -> " nombrevar|numero F          "
+	" nombrevar|numero F          " -> "numero F          "
+	"numero F          " -> "F          "
+	"Operaciones  B=A*10+3-E/F+C
+" -> "Operador+           "
+	"Operador+           " -> "+           "
+	"Operaciones  B=A*10+3-E/F+C
+" -> " nombrevar|numero C
+            "
+	" nombrevar|numero C
+            " -> "numero C
+            "
+	"numero C
+            " -> "C
+            "
+}

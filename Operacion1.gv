@@ -1,0 +1,62 @@
+digraph G {
+	Sent -> GO
+	Sent -> ";"
+	Sent -> "Sentencias OperacionesA=30*5+6-41*2+10
+"
+	Sent -> GON
+	Sent -> "; "
+	"Sentencias OperacionesA=30*5+6-41*2+10
+" -> "Operaciones  A=30*5+6-41*2+10
+"
+	"Operaciones  A=30*5+6-41*2+10
+" -> " nombrevar|numero A"
+	" nombrevar|numero A" -> "numero A"
+	"numero A" -> A
+	"Operaciones  A=30*5+6-41*2+10
+" -> "Operador= "
+	"Operador= " -> "= "
+	"Operaciones  A=30*5+6-41*2+10
+" -> " nombrevar|numero 30  "
+	" nombrevar|numero 30  " -> "numero 30  "
+	"numero 30  " -> "30  "
+	"Operaciones  A=30*5+6-41*2+10
+" -> "Operador*   "
+	"Operador*   " -> "*   "
+	"Operaciones  A=30*5+6-41*2+10
+" -> " nombrevar|numero 5    "
+	" nombrevar|numero 5    " -> "numero 5    "
+	"numero 5    " -> "5    "
+	"Operaciones  A=30*5+6-41*2+10
+" -> "Operador+     "
+	"Operador+     " -> "+     "
+	"Operaciones  A=30*5+6-41*2+10
+" -> " nombrevar|numero 6      "
+	" nombrevar|numero 6      " -> "numero 6      "
+	"numero 6      " -> "6      "
+	"Operaciones  A=30*5+6-41*2+10
+" -> "Operador-       "
+	"Operador-       " -> "-       "
+	"Operaciones  A=30*5+6-41*2+10
+" -> " nombrevar|numero 41        "
+	" nombrevar|numero 41        " -> "numero 41        "
+	"numero 41        " -> "41        "
+	"Operaciones  A=30*5+6-41*2+10
+" -> "Operador*         "
+	"Operador*         " -> "*         "
+	"Operaciones  A=30*5+6-41*2+10
+" -> " nombrevar|numero 2          "
+	" nombrevar|numero 2          " -> "numero 2          "
+	"numero 2          " -> "2          "
+	"Operaciones  A=30*5+6-41*2+10
+" -> "Operador+           "
+	"Operador+           " -> "+           "
+	"Operaciones  A=30*5+6-41*2+10
+" -> " nombrevar|numero 10
+            "
+	" nombrevar|numero 10
+            " -> "numero 10
+            "
+	"numero 10
+            " -> "10
+            "
+}
